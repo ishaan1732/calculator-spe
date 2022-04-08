@@ -37,6 +37,8 @@ public class Calculator {
         System.out.println(" Enter 2 for Factorial");
         System.out.println(" Enter 3 for naturalLog");
         System.out.println(" Enter 4 for power");
+        System.out.println(" Enter any key to exit");
+
         int choice;
 
         Calculator calculator = new Calculator();
@@ -53,29 +55,38 @@ public class Calculator {
                 return;
             }
 
-            try {
-                System.out.print("Enter the first number : ");
-                input1 = scanner.nextDouble();
+            // try {
                 // if(choice == 4){
                 
                 // }
-            } catch (InputMismatchException error) {
-                return;
-            }
+            // } catch (InputMismatchException error) {
+                // return;
+            // }
             switch (choice) {
-                case 1:
+                case 1:  // Square Root
                 
+                    System.out.print("Enter number : ");
+                    input1 = scanner.nextDouble();
                     System.out.println("Square Root result is : " + calculator.sqroot(input1));
                     break;
-                case 2:
-                    
+                case 2: // // Factorial
+
+                    System.out.print("Enter number : ");
+                    input1 = scanner.nextDouble();
                     System.out.println("Factorial result is : " + calculator.fact(input1));
                     break;
-                case 3:
+                case 3:  // Log
+
+                    System.out.print("Enter number : ");
+                    input1 = scanner.nextDouble();
                     System.out.println("log result is : " + calculator.naturalLog(input1));
                     break;
-                case 4:
-                    System.out.print("Enter the second number : ");
+                case 4: // Power
+
+                    System.out.print("Enter base : ");
+                    input1 = scanner.nextDouble();
+
+                    System.out.print("Enter the power : ");
                     input2 = scanner.nextDouble();
                     System.out.println("power result is : " + calculator.power(input1, input2));
                     break;
