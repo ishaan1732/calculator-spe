@@ -10,19 +10,19 @@ public class Calculator {
     public Calculator(){
     }
     
-    public double square_root(double x) {
+    public double sqroot(double x) {
         return Math.sqrt(x);
     }
     
-    public double factorial(double x) {
-        double fact = 1;
+    public double fact(double x) {
+        double factorial = 1;
         for(int i = 1;i <= x; i++){    
-            fact = fact*i;    
+            factorial = factorial*i;    
         } 
-        return fact;
+        return factorial;
     }
     
-    public double log(double x) {
+    public double naturalLog(double x) {
         return Math.log(x);
     }
     
@@ -35,7 +35,7 @@ public class Calculator {
         System.out.println("What operation? ('√', '!', 'ln', '^')");  
         System.out.println(" Enter 1 for Square Root");
         System.out.println(" Enter 2 for Factorial");
-        System.out.println(" Enter 3 for ln");
+        System.out.println(" Enter 3 for naturalLog");
         System.out.println(" Enter 4 for power");
         int choice;
 
@@ -65,14 +65,14 @@ public class Calculator {
             switch (choice) {
                 case 1:
                 
-                    System.out.println("Square Root result is : " + calculator.square_root(input1));
+                    System.out.println("Square Root result is : " + calculator.sqroot(input1));
                     break;
                 case 2:
                     
-                    System.out.println("Factorial result is : " + calculator.factorial(input1));
+                    System.out.println("Factorial result is : " + calculator.fact(input1));
                     break;
                 case 3:
-                    System.out.println("log result is : " + calculator.log(input1));
+                    System.out.println("log result is : " + calculator.naturalLog(input1));
                     break;
                 case 4:
                     System.out.print("Enter the second number : ");
