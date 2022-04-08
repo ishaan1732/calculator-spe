@@ -1,0 +1,8 @@
+---
+- name: Deploy a jar file
+  hosts: all
+  tasks:
+    - name: ishaan1732/calculator-spe
+      docker_image:
+        name: ishaan1732/calculator-spe
+        source: pull
