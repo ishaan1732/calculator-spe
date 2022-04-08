@@ -16,6 +16,8 @@ public class Calculator {
     
     public double fact(double x) {
         double factorial = 1;
+        if(x<0)
+            return 0;
         for(int i = 1;i <= x; i++){    
             factorial = factorial*i;    
         } 
