@@ -51,6 +51,7 @@ public class Calculator {
 
         while(true){
             try {
+            System.out.println(" Enter choice : ");
             choice = scanner.nextInt();
             } 
             catch(InputMismatchException error) {
