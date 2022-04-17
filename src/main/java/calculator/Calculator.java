@@ -16,7 +16,7 @@ public class Calculator {
     
     public double sqroot(double x) {
         logger.info("[Operation] => Square Root : " + x + "\n");
-        double result = Math.sqrt(x)
+        double result = Math.sqrt(x);
         logger.info("[Result] => Square Root is : " + result + "\n\n");
         return result;
     }
