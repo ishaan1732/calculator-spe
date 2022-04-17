@@ -16,35 +16,35 @@ public class Calculator {
     }
     
     public double sqroot(double x) {
-        logger.info("[Operation] => Square Root : " + x + "\n");
+        logger.info("Operation : Square Root : " + x + "\n");
         double result = Math.sqrt(x);
-        logger.info("[Result] => Square Root is : " + result + "\n\n");
+        logger.info("Result : Square Root is : " + result + "\n\n");
         return result;
     }
     
     public double fact(double x) {
-        logger.info("[Operation] => Factorial: " + x + "\n");
+        logger.info("Operation : Factorial: " + x + "\n");
         double factorial = 1;
         if(x<0)
             return 0;
         for(int i = 1;i <= x; i++){    
             factorial = factorial*i;    
         } 
-        logger.info("[Result] => Factorial is : " + factorial + "\n\n");
+        logger.info("Result : Factorial is : " + factorial + "\n\n");
         return factorial;
     }
     
     public double naturalLog(double x) {
-        logger.info("[Operation] => Natural Log : " + x + "\n");
+        logger.info("Operation : Natural Log : " + x + "\n");
         double result = Math.log(x);
-        logger.info("[Result] => Natural Log is : " + result + "\n\n");
+        logger.info("Result : Natural Log is : " + result + "\n\n");
         return result;
     }
     
     public double power(double x, double y) {
-        logger.info("[Operation] => Power : " + x  + "^" + y + "\n");
+        logger.info("Operation : Power : " + x  + "^" + y + "\n");
         double result = Math.pow(x,y);
-        logger.info("[Result] => Power is : " + result + "\n\n");
+        logger.info("Result : Power is : " + result + "\n\n");
         return result;
     }
 
