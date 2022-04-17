@@ -1,0 +1,80 @@
+2022-04-17 18:00:25.866 [main] INFO  calculator.Calculator - Operation : Factorial: 6.0
+
+2022-04-17 18:00:25.872 [main] INFO  calculator.Calculator - Result : Factorial is : 720.0
+
+
+2022-04-17 18:00:25.872 [main] INFO  calculator.Calculator - Operation : Factorial: 3.0
+
+2022-04-17 18:00:25.873 [main] INFO  calculator.Calculator - Result : Factorial is : 6.0
+
+
+2022-04-17 18:00:25.874 [main] INFO  calculator.Calculator - Operation : Square Root : 10.0
+
+2022-04-17 18:00:25.875 [main] INFO  calculator.Calculator - Result : Square Root is : 3.1622776601683795
+
+
+2022-04-17 18:00:25.875 [main] INFO  calculator.Calculator - Operation : Square Root : 22.0
+
+2022-04-17 18:00:25.876 [main] INFO  calculator.Calculator - Result : Square Root is : 4.69041575982343
+
+
+2022-04-17 18:00:25.877 [main] INFO  calculator.Calculator - Operation : Natural Log : 1.0
+
+2022-04-17 18:00:25.877 [main] INFO  calculator.Calculator - Result : Natural Log is : 0.0
+
+
+2022-04-17 18:00:25.878 [main] INFO  calculator.Calculator - Operation : Natural Log : 1.0
+
+2022-04-17 18:00:25.878 [main] INFO  calculator.Calculator - Result : Natural Log is : 0.0
+
+
+2022-04-17 18:00:25.880 [main] INFO  calculator.Calculator - Operation : Factorial: 5.0
+
+2022-04-17 18:00:25.881 [main] INFO  calculator.Calculator - Result : Factorial is : 120.0
+
+
+2022-04-17 18:00:25.881 [main] INFO  calculator.Calculator - Operation : Factorial: 4.0
+
+2022-04-17 18:00:25.881 [main] INFO  calculator.Calculator - Result : Factorial is : 24.0
+
+
+2022-04-17 18:00:25.882 [main] INFO  calculator.Calculator - Operation : Power : 2.0^2.0
+
+2022-04-17 18:00:25.883 [main] INFO  calculator.Calculator - Result : Power is : 4.0
+
+
+2022-04-17 18:00:25.884 [main] INFO  calculator.Calculator - Operation : Power : 3.0^3.0
+
+2022-04-17 18:00:25.884 [main] INFO  calculator.Calculator - Result : Power is : 27.0
+
+
+2022-04-17 18:00:25.885 [main] INFO  calculator.Calculator - Operation : Power : 2.0^4.0
+
+2022-04-17 18:00:25.886 [main] INFO  calculator.Calculator - Result : Power is : 16.0
+
+
+2022-04-17 18:00:25.886 [main] INFO  calculator.Calculator - Operation : Power : 4.0^4.0
+
+2022-04-17 18:00:25.887 [main] INFO  calculator.Calculator - Result : Power is : 256.0
+
+
+2022-04-17 18:00:25.888 [main] INFO  calculator.Calculator - Operation : Natural Log : 2.6
+
+2022-04-17 18:00:25.888 [main] INFO  calculator.Calculator - Result : Natural Log is : 0.9555114450274363
+
+
+2022-04-17 18:00:25.889 [main] INFO  calculator.Calculator - Operation : Natural Log : 2.0
+
+2022-04-17 18:00:25.889 [main] INFO  calculator.Calculator - Result : Natural Log is : 0.6931471805599453
+
+
+2022-04-17 18:00:25.891 [main] INFO  calculator.Calculator - Operation : Square Root : 4.0
+
+2022-04-17 18:00:25.891 [main] INFO  calculator.Calculator - Result : Square Root is : 2.0
+
+
+2022-04-17 18:00:25.892 [main] INFO  calculator.Calculator - Operation : Square Root : 9.0
+
+2022-04-17 18:00:25.892 [main] INFO  calculator.Calculator - Result : Square Root is : 3.0
+
+
